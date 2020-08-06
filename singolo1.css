@@ -76,7 +76,7 @@ ul{
     margin: 16px 5px;
 }
 .left-button {
-    background-image: url(../assets/arrows.png);
+    background-image: url(assets/arrows.png);
     position: absolute;
     left: 42px;
     top: 280px;
@@ -85,7 +85,7 @@ ul{
     z-index: 77;
 }
 .right-button {
-    background-image: url(../assets/arrows.png);
+    background-image: url(assets/arrows.png);
     transform: rotate(180deg);
     position: absolute;
     left: 964px;
@@ -151,20 +151,20 @@ ul{
     margin: 0px 20px 20px 0;
 }
 .star {
-    background: url(../assets/icon-sprite.png) no-repeat 0 -305px;
+    background: url(assets/icon-sprite.png) no-repeat 0 -305px;
 }
 .bulb {
-    background: url(../assets/icon-sprite.png) no-repeat 0 -61px;
+    background: url(assets/icon-sprite.png) no-repeat 0 -61px;
 }
 .pen {
-    background: url(../assets/icon-sprite.png) no-repeat 0 0;
+    background: url(assets/icon-sprite.png) no-repeat 0 0;
 }
 .bubble {
-    background: url(../assets/icon-sprite.png) no-repeat 0 -244px;
+    background: url(assets/icon-sprite.png) no-repeat 0 -244px;
 }
 .phone{
-    background: url(../assets/icon-sprite.png) no-repeat 0 -183px;
+    background: url(assets/icon-sprite.png) no-repeat 0 -183px;
 }
 .heart{
-    background: url(../assets/heart.png) no-repeat;
+    background: url(assets/heart.png) no-repeat;
 }
