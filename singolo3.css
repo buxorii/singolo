@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+html, body{
+    font-family: "Lato";
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.contact{
+    width: 100%;
+    height: 646px;;
+    background: #f06c64;
+    border-bottom: 6px solid #ea676b;
+    display: flex;
+    justify-content: center;
+    color: #f0d8d9;
+}
+.footer{
+    width: 100%;
+    height: 76px;
+    background: #2d303a;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    max-width: 1200px;
+    height: 100%;
+    min-width: 1020px;
+    background: transparent;
+    position: relative;
+}
+.content{
+    margin: 60px 40px;
+    position: relative;
+    max-width: 940px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 0 18px 0;
+}
+.content h3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+.contact-items{
+    display: flex;
+    width: 100%;
+    margin: 40px 0;
+}
+.contact-form{
+    width: 620px;
+    margin: 0 20px 0 0;
+}
+.contact-info{
+    width: 300px;
+}
+.contact-form input[type="text"],
+.contact-form textarea {
+    color: #f0d8d9;
+    background-color: #ca4549;
+    border: 0;
+    padding: 12px 15px;
+    border-radius: 4px;
+    width: 588px;
+}
+.contact-form input[type="text"] {
+    margin-bottom: 17px;
+}
+.contact-form textarea {
+    resize: none;
+    height: 176px;
+}
+.contact-form input::-webkit-input-placeholder,
+.contact-form textarea::-webkit-input-placeholder {
+    color: #f48c8f;
+}
+.contact-info h4{
+    margin: 0;
+    font-size: 18px;
+}
+.contact-info p{
+    font-size: 11px;
+    margin: 7px 0 0 0;
+    line-height: 2;
+}
+.contact-info a{
+    color: #f0d8d9;
+}
+.contact-info ul{
+    margin: 20px 0;
+    padding: 0;
+}
+.contact-info i {
+    width: 12px;
+    text-align: center;
+    height: 12px;
+    background: #2d303a;
+}
+.contact-info ul li{
+    margin-bottom: 3px;
+}
+.contact-info ul li span {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+}
+.left{
+    float: left;
+    margin: 17px 0 0 40px;
+}
+.right{
+    float: right;
+    margin-right: 32px;
+}
+.footer .social-media{
+    margin: 23px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer ul li{
+    float: left;
+    margin: 0 8px 0 0;
+}
+.copyright{
+    font-size: 12px;
+    color: #666d89;
+}
